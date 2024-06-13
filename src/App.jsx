@@ -20,9 +20,6 @@ function App() {
 
   }
 
-
-
-
   return (
     <div className="app">
       <div className="search">
@@ -40,7 +37,6 @@ function App() {
           <li>Followers :{userData.followers} </li>
           <li>Following : {userData.following}</li>
           <li>Public repo : {userData.public_repos}</li>
-
 
 
         </ul>
